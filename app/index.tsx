@@ -1,84 +1,85 @@
 import { Link, router } from "expo-router";
-import { Button ,ScrollView, StyleSheet, Text, View } from "react-native";
+import { Button, ScrollView, StyleSheet, Text, View } from "react-native";
 
 export default function Index() {
   return (
-<ScrollView>
+    <ScrollView>
+      <View style={styles.container}>
+        <Link href="/page2" style={styles.link}>
+          <Text style={styles.linkText}>ไปหน้าที่ 2</Text>
+        </Link>
 
-    <View style={styles.container}>
-      <Link href="/page2" style={styles.link}>
-        <Text style={styles.linkText}>ไปหน้าที่ 2</Text>
-      </Link>
+        <Link href="/flexbox/ex01" style={styles.link}>
+          <Text style={styles.linkText}>ex1</Text>
+        </Link>
 
-      <Link href="/flexbox/ex01" style={styles.link}>
-        <Text style={styles.linkText}>ex1</Text>
-      </Link>
+        <Link href="/flexbox/ex02" style={styles.link}>
+          <Text style={styles.linkText}>ex2</Text>
+        </Link>
 
-      <Link href="/flexbox/ex02" style={styles.link}>
-        <Text style={styles.linkText}>ex2</Text>
-      </Link>
+        <Link href="/flexbox/ex03" style={styles.link}>
+          <Text style={styles.linkText}>ex3</Text>
+        </Link>
 
-      <Link href="/flexbox/ex03" style={styles.link}>
-        <Text style={styles.linkText}>ex3</Text>
-      </Link>
+        <Link href="/flexbox/ex04" style={styles.link}>
+          <Text style={styles.linkText}>ex4</Text>
+        </Link>
 
-      <Link href="/flexbox/ex04" style={styles.link}>
-        <Text style={styles.linkText}>ex4</Text>
-      </Link>
+        <Link href="/flexbox/ex05" style={styles.link}>
+          <Text style={styles.linkText}>ex5</Text>
+        </Link>
 
-      <Link href="/flexbox/ex05" style={styles.link}>
-        <Text style={styles.linkText}>ex5</Text>
-      </Link>
+        <Link href="/flexbox/ex06" style={styles.link}>
+          <Text style={styles.linkText}>ex6</Text>
+        </Link>
 
-      <Link href="/flexbox/ex06" style={styles.link}>
-        <Text style={styles.linkText}>ex6</Text>
-      </Link>
+        <Link href="/flexbox/ex07" style={styles.link}>
+          <Text style={styles.linkText}>ex7</Text>
+        </Link>
 
-      <Link href="/flexbox/ex07" style={styles.link}>
-        <Text style={styles.linkText}>ex7</Text>
-      </Link>
+        <Link href="/flexbox/ex08" style={styles.link}>
+          <Text style={styles.linkText}>ex8</Text>
+        </Link>
 
-      <Link href="/flexbox/ex08" style={styles.link}>
-        <Text style={styles.linkText}>ex8</Text>
-      </Link>
+        <Link href="/flexbox/ex09" style={styles.link}>
+          <Text style={styles.linkText}>ex9</Text>
+        </Link>
 
-      <Link href="/flexbox/ex09" style={styles.link}>
-        <Text style={styles.linkText}>ex9</Text>
-      </Link>
+        <Link href="/flexbox/ex10" style={styles.link}>
+          <Text style={styles.linkText}>ex10</Text>
+        </Link>
 
-      <Link href="/flexbox/ex10" style={styles.link}>
-        <Text style={styles.linkText}>ex10</Text>
-      </Link>
+        <Link href="/flexbox/ex11" style={styles.link}>
+          <Text style={styles.linkText}>ex11</Text>
+        </Link>
 
-      <Link href="/flexbox/ex11" style={styles.link}>
-        <Text style={styles.linkText}>ex11</Text>
-      </Link>
+        <Link href="/flexbox/ex12" style={styles.link}>
+          <Text style={styles.linkText}>ex12</Text>
+        </Link>
 
-      <Link href="/flexbox/ex12" style={styles.link}>
-        <Text style={styles.linkText}>ex12</Text>
-      </Link>
+        <Link href="/test-components" style={styles.link}>
+          <Text style={styles.linkText}>Test-components</Text>
+        </Link>
 
-      <Link href="/test-components" style={styles.link}>
-        <Text style={styles.linkText}>Test-components</Text>
-      </Link>
-      
-      <Link href="/test-greeting" style={styles.link}>
-        <Text style={styles.linkText}>Test Greeting</Text>
-      </Link>
+        <Link href="/test-greeting" style={styles.link}>
+          <Text style={styles.linkText}>Test Greeting</Text>
+        </Link>
 
-      <Link href="/travel" style={styles.link}>
-        <Text style={styles.linkText}>Travel</Text>
-      </Link>
+        <Link href="/travel" style={styles.link}>
+          <Text style={styles.linkText}>Travel</Text>
+        </Link>
 
-      <Link href="/resort" style={styles.link}>
-        <Text style={styles.linkText}>Resort</Text>
-      </Link>
-      
-    </View>
-  </ScrollView>
+        <Link href="/resort" style={styles.link}>
+          <Text style={styles.linkText}>Resort</Text>
+        </Link>
+
+        <Link href="/health" style={styles.link}>
+          <Text style={styles.linkText}>Health</Text>
+        </Link>
+      </View>
+    </ScrollView>
   );
 }
-
 
 const styles = StyleSheet.create({
   container: { flex: 1, justifyContent: "center", alignItems: "center" },
