@@ -91,6 +91,15 @@ export default function Index() {
         <Link href="/todolist" style={styles.link}>
           <Text style={styles.linkText}>Todo List</Text>
         </Link>
+        <Link href="/location" style={styles.link}>
+          <Text style={styles.linkText}>Location</Text>
+        </Link>
+        <Link href="/ant" style={styles.link}>
+          <Text style={styles.linkText}>heros</Text>
+        </Link>
+        <Link href="/pikachu" style={styles.link}>
+          <Text style={styles.linkText}>pokemon</Text>
+        </Link>
       </View>
     </ScrollView>
   );
